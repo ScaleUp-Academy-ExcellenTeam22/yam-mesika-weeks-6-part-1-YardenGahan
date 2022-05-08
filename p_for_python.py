@@ -3,5 +3,5 @@ def get_num():
     list2 = [chr(num) for num in range(ord('a'), ord('{'))]
     return list1, list2
 
-
-print(get_num())
+if __name__ == "__main__":
+    print(get_num())
