@@ -1,4 +1,4 @@
-def my_filter(func, values) -> list:
+def my_filter(func, values : list) -> list:
     """
     This function overloads the function "filter".
     @param func: wanted function to check
